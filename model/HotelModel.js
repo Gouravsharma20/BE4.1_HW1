@@ -25,6 +25,7 @@ const HotelModel = new mongoose.Schema({
     isPoolAvailable:Boolean,
     isSpaAvailable:Boolean,
     isRestaurantAvailable:Boolean,
+    cuisine:[String],
     photos:[String]
 })
 
